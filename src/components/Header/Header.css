@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand&display=swap");
+
+.header {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  background-color: #272525a2;
+  font-size: 20px;
+  text-align: center;
+}
+
+.devTitle {
+  color: yellow;
+  text-decoration: underline;
+  text-decoration: white underline;
+}
+
+.devName {
+  color: white;
+  text-decoration: overline yellow;
+}
+
+.textContent {
+    margin: 10px;
+}
