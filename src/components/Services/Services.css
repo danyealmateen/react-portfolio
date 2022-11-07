@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand&display=swap");
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  background-color: #272525a2;
+  width: 100%;
+}
+
+.grid-item {
+  height: 150px;
+  width: 250px;
+  border: 3px solid white;
+  margin: 20px;
+}
+
+.myServicesTitle {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
