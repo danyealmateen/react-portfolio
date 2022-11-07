@@ -5,7 +5,7 @@ function Header() {
     <div className="header">
       <div className="title">
         <h1>
-          <span className="devName">I'm Danyeal Mateen</span>
+          <span className="devName">Danyeal Mateen</span>
         </h1>
         <h1>
           <span className="devTitle">Front-end Developer</span>
