@@ -10,14 +10,14 @@
 }
 
 .devTitle {
-  color: yellow;
+  color: orange;
   text-decoration: underline;
   text-decoration: white underline;
 }
 
 .devName {
   color: white;
-  text-decoration: overline yellow;
+  text-decoration: overline orange;
 }
 
 .textContent {
