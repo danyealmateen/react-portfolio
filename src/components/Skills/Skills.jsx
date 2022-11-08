@@ -12,13 +12,16 @@ function Skills() {
     <div className="bars">
       <div className="skillBar">
         <button className="skillsHeader" onClick={handleOpen}>
-          Skills to pay the bills
+          Skills<i className="fa-solid fa-gear" id="gearIcon"></i>
         </button>
         {open ? (
           <div className="bars">
             <p className="fa-brands fa-html5" id="htmlIcon"></p>
+            <hr className="hr"></hr>
             <p className="fa-brands fa-css3-alt" id="cssIcon"></p>
+            <hr className="hr"></hr>
             <p className="fa-brands fa-square-js" id="jsIcon"></p>
+            <hr className="hr"></hr>
             <p className="fa-brands fa-react" id="reactIcon"></p>
           </div>
         ) : null}
