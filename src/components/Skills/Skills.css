@@ -5,10 +5,11 @@
   font-family: "Poppins", sans-serif;
   text-align: center;
   font-size: 19px;
+  opacity: 1;
 }
 
 .skillBar {
-  height: 300px;
+  height: 70px;
   width: 250px;
   background-color: #272525a2;
 }
@@ -20,7 +21,20 @@
 }
 
 .skillsHeader {
-  text-decoration: overline orange;
+  font-size: 20px;
+  margin-top: 15px;
+  background-color: orange;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  border: solid 2px black;
+  transition: 0.2s ease-in-out 0s;
+}
+
+.skillsHeader:hover {
+  transform: scale(1.25);
+  background-color: white;
+  color: orange;
+  border: solid 2px orange;
 }
 
 .languagesHeader {
@@ -29,24 +43,42 @@
 
 #htmlIcon {
   color: orangered;
-  font-size: 25px;
-  /* box-shadow: 1px 1px 10px rgb(139, 54, 54); */
+  font-size: 35px;
+  animation: change;
+  animation-duration: 0.75s;
+  text-decoration: overline orangered;
 }
 
 #cssIcon {
   color: lightblue;
-  font-size: 25px;
-  /* box-shadow: 1px 1px 10px lightskyblue; */
+  font-size: 35px;
+  animation: change;
+  animation-duration: 1.5s;
+  text-decoration: overline lightblue;
 }
 
 #jsIcon {
   color: yellow;
-  font-size: 25px;
-  /* box-shadow: 1px 1px 10px yellow; */
+  font-size: 35px;
+  animation: change;
+  animation-duration: 2.25s;
+  text-decoration: overline yellow;
 }
 
 #reactIcon {
   color: rgb(86, 61, 124);
-  font-size: 25px;
-  /* box-shadow: 1px 1px 10px rgba(128, 0, 128, 0.404); */
+  font-size: 35px;
+  animation: change;
+  animation-duration: 2.9s;
+  text-decoration: overline rgb(60, 0, 60);
+}
+
+@keyframes change {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
