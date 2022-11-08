@@ -12,7 +12,7 @@ function Skills() {
     <div className="bars">
       <div className="skillBar">
         <button className="skillsHeader" onClick={handleOpen}>
-          Skills<i className="fa-solid fa-gear" id="gearIcon"></i>
+          Computer languages<i className="fa-solid fa-gear" id="gearIcon"></i>
         </button>
         {open ? (
           <div className="bars">
@@ -27,10 +27,16 @@ function Skills() {
         ) : null}
       </div>
       <div className="languageBar">
-        <h3 className="languagesHeader">Languages</h3>
-        <p>Swedish</p>
-        <p>English</p>
-        <p>Farsi</p>
+        <button>Languages</button>
+        <p>
+          <i class="fa-solid fa-earth-europe" id="sweGlobe"></i> <span className="sweText">Swedish</span>
+        </p>
+        <p>
+          <i class="fa-solid fa-earth-asia" id="engGlobe"></i> <span className="engText">English</span>
+        </p>
+        <p>
+          <i class="fa-solid fa-earth-oceania" id="farGlobe"></i> <span class="farText">Farsi</span>
+        </p>
       </div>
     </div>
   );

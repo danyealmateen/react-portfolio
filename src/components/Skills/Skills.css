@@ -10,13 +10,11 @@
 .skillBar {
   height: 70px;
   width: 250px;
-  /* background-color: #272525a2; */
 }
 
 .languageBar {
-  height: 300px;
+  height: 70px;
   width: 250px;
-  background-color: #272525a2;
 }
 
 .skillsHeader {
@@ -85,4 +83,28 @@
 hr {
   color: orange;
   border: 2px solid white;
+}
+
+#sweGlobe {
+
+}
+
+#engGlobe {
+
+}
+
+#farGlobe {
+
+}
+
+.sweText {
+
+}
+
+.engText {
+
+}
+
+.farText {
+  
 }
