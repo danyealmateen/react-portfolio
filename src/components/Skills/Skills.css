@@ -1,0 +1,52 @@
+.bars {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 19px;
+}
+
+.skillBar {
+  height: 300px;
+  width: 250px;
+  background-color: #272525a2;
+}
+
+.languageBar {
+  height: 300px;
+  width: 250px;
+  background-color: #272525a2;
+}
+
+.skillsHeader {
+  text-decoration: overline orange;
+}
+
+.languagesHeader {
+  text-decoration: overline orange;
+}
+
+#htmlIcon {
+  color: orangered;
+  font-size: 25px;
+  /* box-shadow: 1px 1px 10px rgb(139, 54, 54); */
+}
+
+#cssIcon {
+  color: lightblue;
+  font-size: 25px;
+  /* box-shadow: 1px 1px 10px lightskyblue; */
+}
+
+#jsIcon {
+  color: yellow;
+  font-size: 25px;
+  /* box-shadow: 1px 1px 10px yellow; */
+}
+
+#reactIcon {
+  color: rgb(86, 61, 124);
+  font-size: 25px;
+  /* box-shadow: 1px 1px 10px rgba(128, 0, 128, 0.404); */
+}
