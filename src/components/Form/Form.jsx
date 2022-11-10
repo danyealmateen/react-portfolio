@@ -1,6 +1,6 @@
 import "./Form.css";
 import { useState } from "react";
-import Messages from "../Messages/Messages";
+import Message from "../Message/Message";
 
 function Form() {
   const [city, setCity] = useState("");
@@ -9,9 +9,9 @@ function Form() {
   const [message, setMessage] = useState("");
   const inputData = [];
 
-  let cityName = "malmo".toLowerCase();
-  let raceName = "chihuahua".toLowerCase();
-  let driveName = "driving".toLowerCase();
+  let cityName = "malmo";
+  let raceName = "chihuahua";
+  let driveName = "driving";
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -31,7 +31,14 @@ function Form() {
       );
       return;
     }
-    setMessage(<p className="errorText">Failed</p>);
+    setMessage(
+      <p className="errorText">
+        Let's try again. What if I asked you if you've ever seen
+        <span className="drivingText">DRIVING </span>
+        <span className="chihuahuaText">CHIHUAHUAS </span>
+        in <span className="cityText">MALMO? </span>
+      </p>
+    );
 
     inputData.push(city, race, clear);
     console.log(inputData);
@@ -69,7 +76,7 @@ function Form() {
         <button className="resetBtn">
           Reset <i className="fa-solid fa-trash-arrow-up"></i>
         </button>
-        {message === "" ? <div></div> : <Messages message={message} />}
+        {message === "" ? <div></div> : <Message message={message} />}
       </form>
     </div>
   );

@@ -21,5 +21,6 @@
 }
 
 .textContent {
-    margin: 10px;
+  margin: 10px;
+  max-width: 1300px;
 }
