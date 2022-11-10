@@ -1,9 +1,9 @@
 import "./Messages.css";
 
-function Messages() {
+function Messages(props) {
   return (
-    <div>
-      <h1>Messages - both good and bad</h1>
+    <div className="messages">
+      <h1>{props.message}</h1>
     </div>
   );
 }

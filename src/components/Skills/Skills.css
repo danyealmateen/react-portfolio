@@ -10,10 +10,10 @@
   margin: 15px;
   margin-top: -5px;
   font-size: 20px;
-  background-color: white;
+  background-color: goldenrod;
   color: black;
   font-family: "Poppins", sans-serif;
-  border: solid 5px yellow;
+  border: solid 5px goldenrod;
   transition: 0.2s ease-in-out 0s;
   border-radius: 15px;
   box-shadow: yellow 0px 30px 60px -12px inset, orange 0px 18px 36px -18px inset;

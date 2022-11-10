@@ -12,10 +12,10 @@
 .readyBtn,
 .resetBtn {
   font-size: 20px;
-  background-color: white;
+  background-color: goldenrod;
   color: black;
   font-family: "Poppins", sans-serif;
-  border: solid 5px yellow;
+  border: solid 5px goldenrod;
   border-radius: 15px;
   transition: 0.2s ease-in-out 0s;
   margin: 10px;
