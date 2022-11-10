@@ -48,7 +48,7 @@ function Form() {
     <div className="formContainer">
       <form className="form" onSubmit={handleSubmit}>
         <h1 className="quizHeader">Quick Quiz</h1>
-        <h3>Oops, locked content! Fill in the correct answers to proceed.</h3>
+        <h3>Locked content! Fill in the correct answers to proceed.</h3>
         <input
           value={city}
           onChange={(e) => setCity(e.target.value.toLowerCase())}
@@ -73,9 +73,9 @@ function Form() {
         <button type="submit" className="readyBtn">
           Submit <i className="fa-solid fa-circle-check"></i>
         </button>
-        <button className="resetBtn">
+        {/* <button className="resetBtn">
           Reset <i className="fa-solid fa-trash-arrow-up"></i>
-        </button>
+        </button> */}
         {message === "" ? <div></div> : <Message message={message} />}
       </form>
     </div>
