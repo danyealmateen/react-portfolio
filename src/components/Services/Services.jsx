@@ -10,12 +10,12 @@ function Services() {
       </p>
       <div className="grid-container">
         <div className="grid-item">
-          <i className="fa-regular fa-file-video" id="videoIcon"></i>
-          <p className="webDevTitle">Video Editing</p>
-        </div>
-        <div className="grid-item">
           <i className="fa-regular fa-file-code" id="codeIcon"></i>
           <p className="webDevTitle">Web Development</p>
+        </div>
+        <div className="grid-item">
+          <i className="fa-regular fa-file-video" id="videoIcon"></i>
+          <p className="webDevTitle">Video Editing</p>
         </div>
       </div>
     </div>

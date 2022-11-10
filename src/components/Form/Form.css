@@ -1,0 +1,25 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #272525a2;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin-top: 15px;
+  margin-bottom: 90rem;
+}
+
+.readyBtn {
+}
+.resetBtn {
+}
+
+#cityInput {
+}
+
+#raceInput {
+}
+
+#mindInput {
+}

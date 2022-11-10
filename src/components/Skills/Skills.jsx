@@ -15,7 +15,7 @@ function Skills() {
       </p>
       <button className="animatedButtons" onClick={handleOpen}>
         Expose teammates
-        <i class="fa-solid fa-person-falling-burst"></i>
+        <i className="fa-solid fa-person-falling-burst"></i>
       </button>
 
       {open ? (
