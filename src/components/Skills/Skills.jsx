@@ -10,12 +10,14 @@ function Skills() {
 
   return (
     <div className="contentContainer">
-      <p className="friendsText">Click the button below to see who I'm friends with</p>
+      <p className="friendsText">
+        Click the button below to see who I'm friends with
+      </p>
       <button className="animatedButtons" onClick={handleOpen}>
         Expose teammates
-        <i className="fa-solid fa-gear" id="gearIcon"></i>
+        <i class="fa-solid fa-person-falling-burst"></i>
       </button>
-      
+
       {open ? (
         <div className="skillIcons">
           <i className="fa-brands fa-html5" id="htmlIcon"></i>
