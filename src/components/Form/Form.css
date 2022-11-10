@@ -51,10 +51,23 @@
 }
 
 .drivingText {
+  display: block;
+  color: orange;
+  text-decoration: double underline white;
 }
 
 .chihuahuaText {
+  display: block;
+  color: orange;
+  text-decoration: double underline white;
 }
 
 .cityText {
+  display: block;
+  color: orange;
+  text-decoration: double underline white;
+}
+
+.contentUnlockedText {
+  color: orange;
 }

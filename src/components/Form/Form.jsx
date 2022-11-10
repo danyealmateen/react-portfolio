@@ -24,7 +24,7 @@ function Form() {
     if (city === cityName && race === raceName && clear === driveName) {
       setMessage(
         <div>
-          <p>
+          <p className="contentUnlockedText">
             [Content unlocked <i class="fa-solid fa-unlock-keyhole"></i>]
           </p>
         </div>
@@ -33,9 +33,9 @@ function Form() {
     }
     setMessage(
       <p className="errorText">
-        Let's try again. What if I asked you if you've ever seen
+        Wrong. Have you ever seen a <br />
         <span className="drivingText">DRIVING </span>
-        <span className="chihuahuaText">CHIHUAHUAS </span>
+        <span className="chihuahuaText">CHIHUAHUA </span>
         in <span className="cityText">MALMO? </span>
       </p>
     );
