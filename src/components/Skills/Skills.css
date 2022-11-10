@@ -1,25 +1,14 @@
-.bars {
+.contentContainer {
   display: flex;
-  justify-content: space-evenly;
-  margin-top: 30px;
-  font-family: "Poppins", sans-serif;
-  text-align: center;
-  font-size: 19px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.skillBar {
-  height: 70px;
-  width: 250px;
-}
-
-.languageBar {
-  height: 70px;
-  width: 250px;
-}
-
-.skillsHeader {
+.animatedButtons {
+  margin: 15px;
+  margin-top: -5px;
   font-size: 20px;
-  margin-top: 15px;
   background-color: orange;
   color: black;
   font-family: "Poppins", sans-serif;
@@ -27,47 +16,54 @@
   transition: 0.2s ease-in-out 0s;
 }
 
-.skillsHeader:hover {
+.animatedButtons:hover {
   transform: scale(1.25);
   background-color: white;
   color: orange;
   border: solid 2px orange;
 }
 
-.languagesHeader {
-  text-decoration: overline orange;
+.friendsText {
+  font-family: "Poppins", sans-serif;
+  text-decoration:  underline white;
+  padding: 5px;
+  color: orange;
 }
 
 #htmlIcon {
   color: orangered;
-  font-size: 35px;
+  font-size: 50px;
   animation: change;
   animation-duration: 0.75s;
   text-decoration: overline orangered;
+  margin: 15px;
 }
 
 #cssIcon {
   color: lightblue;
-  font-size: 35px;
+  font-size: 50px;
   animation: change;
   animation-duration: 1.5s;
   text-decoration: overline lightblue;
+  margin: 15px;
 }
 
 #jsIcon {
   color: yellow;
-  font-size: 35px;
+  font-size: 50px;
   animation: change;
   animation-duration: 2.25s;
   text-decoration: overline yellow;
+  margin: 15px;
 }
 
 #reactIcon {
   color: rgb(86, 61, 124);
-  font-size: 35px;
+  font-size: 50px;
   animation: change;
   animation-duration: 2.9s;
-  text-decoration: overline rgb(60, 0, 60);
+  text-decoration: overline rgb(121, 0, 121);
+  margin: 15px;
 }
 
 @keyframes change {
@@ -78,33 +74,4 @@
   100% {
     opacity: 1;
   }
-}
-
-hr {
-  color: orange;
-  border: 2px solid white;
-}
-
-#sweGlobe {
-
-}
-
-#engGlobe {
-
-}
-
-#farGlobe {
-
-}
-
-.sweText {
-
-}
-
-.engText {
-
-}
-
-.farText {
-  
 }
