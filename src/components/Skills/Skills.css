@@ -3,17 +3,20 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 50px;
 }
 
 .animatedButtons {
   margin: 15px;
   margin-top: -5px;
   font-size: 20px;
-  background-color: orange;
+  background-color: white;
   color: black;
   font-family: "Poppins", sans-serif;
-  border: solid 2px black;
+  border: solid 5px yellow;
   transition: 0.2s ease-in-out 0s;
+  border-radius: 15px;
+  box-shadow: yellow 0px 30px 60px -12px inset, orange 0px 18px 36px -18px inset;
 }
 
 .animatedButtons:hover {
@@ -26,7 +29,6 @@
 .friendsText {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
-  text-decoration:  underline white;
   padding: 5px;
   color: orange;
 }

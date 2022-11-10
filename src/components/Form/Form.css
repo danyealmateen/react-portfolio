@@ -1,25 +1,51 @@
-.formContainer {
+.form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #272525a2;
-  text-align: center;
   font-family: "Poppins", sans-serif;
-  margin-top: 15px;
-  margin-bottom: 90rem;
+  text-align: center;
+  margin-top: 50px;
 }
 
-.readyBtn {
-}
+.readyBtn,
 .resetBtn {
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  border: solid 5px yellow;
+  border-radius: 15px;
+  transition: 0.2s ease-in-out 0s;
+  margin: 10px;
+  box-shadow: yellow 0px 30px 60px -12px inset, orange 0px 18px 36px -18px inset;
 }
 
-#cityInput {
+.readyBtn:hover,
+.resetBtn:hover {
+  transform: scale(1.25);
+  background-color: white;
+  color: orange;
+  border: solid 2px orange;
 }
 
-#raceInput {
+.quizHeader {
+  color: orange;
+  text-decoration: double overline white;
 }
 
+#cityInput,
+#raceInput,
 #mindInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  background-color: orange;
+  color: black;
+  margin: 10px;
+  text-align: center;
+  border: 2px solid white;
 }
