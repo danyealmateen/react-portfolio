@@ -1,12 +1,15 @@
 import "./Form.css";
 import { useState } from "react";
 import Message from "../Message/Message";
+import Footer from "../Footer/Footer";
 
 function Form() {
   const [city, setCity] = useState("");
   const [race, setRace] = useState("");
   const [clear, setClear] = useState("");
   const [message, setMessage] = useState("");
+  const [opacity, setOpacity] = useState(false);
+
   const inputData = [];
 
   let cityName = "malmo";
@@ -22,6 +25,7 @@ function Form() {
     }
 
     if (city === cityName && race === raceName && clear === driveName) {
+      setOpacity(true);
       setMessage(
         <div>
           <p className="contentUnlockedText">
@@ -53,7 +57,7 @@ function Form() {
           value={city}
           onChange={(e) => setCity(e.target.value.toLowerCase())}
           type="text"
-          placeholder="Where was I born?"
+          placeholder="What city do I live in?"
           id="cityInput"
         />
         <input
@@ -74,6 +78,7 @@ function Form() {
           Submit <i className="fa-solid fa-circle-check"></i>
         </button>
         {message === "" ? <div></div> : <Message message={message} />}
+        {!!opacity && <Footer opacity={opacity} />}
       </form>
     </div>
   );

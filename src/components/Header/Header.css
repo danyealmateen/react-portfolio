@@ -24,3 +24,8 @@
   margin: 10px;
   max-width: 1300px;
 }
+
+.malmo, .chihuahua, .driving {
+  color:orange;
+  font-weight: 700;
+}

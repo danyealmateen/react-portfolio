@@ -5,8 +5,8 @@ function Services() {
     <div>
       <h1 className="myServicesTitle">My services</h1>
       <p className="subText">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-        iusto officia adipisci, voluptatibus soluta tenetur!
+        Full time front end developer with some experience in video editing wich
+        I studied in high school.
       </p>
       <div className="grid-container">
         <div className="grid-item">

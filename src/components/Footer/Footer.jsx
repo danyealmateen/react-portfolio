@@ -1,8 +1,8 @@
 import "./Footer.css";
 
-function Footer() {
+function Footer({ opacity }) {
   return (
-    <div className="footerWrapper">
+    <div className="footerWrapper" style={{ opacity: !!opacity ? 1 : 0 }}>
       <a
         target="_blank"
         rel="noreferrer"
